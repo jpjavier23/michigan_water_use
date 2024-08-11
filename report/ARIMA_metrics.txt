@@ -1,0 +1,16 @@
+ARIMA Model Hyperparameters
+Training Data = 2013 - 2020
+Test Data = 2021 - 2022
+Endog: water_use (Bil. gal)
+Exog: population (Bil.)
+Order: (0, 1, 0)
+
+Block bootstrap resampling
+n = 10000
+block size = 2
+
+Evaluation metrics
+Mean bootstrap RMSE: 280.814
+Median bootstrap RMSE: 232.681
+Mean bootstrap R-Squared: -439.157
+Median bootstrap R-Squared: -1.121
